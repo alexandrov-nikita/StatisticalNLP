@@ -19,7 +19,7 @@ keywords = ['syria', 'damascus', 'assad', 'politics', 'putin', 'trump', 'russia'
 n_items = 10000
 
 for keyword in keywords:
-    with open('../tweets/{}.csv'.format(keyword), 'w+') as f:
+    with open('../tweets/en/{}.csv'.format(keyword), 'w+') as f:
         cursor = tweepy.Cursor(api.search,
                                q=keyword + ' -filter:retweets',
                                lang='en',
