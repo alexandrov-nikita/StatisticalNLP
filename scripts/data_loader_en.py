@@ -15,7 +15,7 @@ api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
 
-keywords = ['syria', 'damascus', 'assad', 'politics', 'putin', 'trump', 'russia', 'USA', 'skripal', 'uk']
+keywords = ['syria', 'damascus', 'assad', 'politics', 'putin', 'trump', 'russia', 'usa', 'skripal', 'uk']
 n_items = 10000
 
 for keyword in keywords:
